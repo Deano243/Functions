@@ -1,0 +1,7 @@
+def  reverse_string (text):
+    reversed_text = ''.join(reversed(text))
+    return reversed_text
+print(reverse_string("hello"))
+print(reverse_string("Python"))
+print(reverse_string("12345"))
+
